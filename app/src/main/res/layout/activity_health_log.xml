@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ADD8E6"
+    android:padding="20dp"
+    tools:context=".HealthLogActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🩺 Daily Health Log"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:id="@+id/etDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Select Date"
+            android:focusable="false"
+            android:background="@drawable/edit_text_bg"
+            android:padding="12dp"
+            android:textColor="@color/textColorPrimary"
+            android:textColorHint="@color/textColorHint"
+            android:layout_marginBottom="10dp" />
+
+        <EditText
+            android:id="@+id/etBP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Blood Pressure (e.g. 120/80)"
+            android:inputType="text"
+            android:background="@drawable/edit_text_bg"
+            android:padding="12dp"
+            android:textColor="@color/textColorPrimary"
+            android:textColorHint="@color/textColorHint"
+            android:layout_marginBottom="10dp" />
+
+        <EditText
+            android:id="@+id/etSugar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Sugar Level (mg/dL)"
+            android:inputType="number"
+            android:background="@drawable/edit_text_bg"
+            android:padding="12dp"
+            android:textColor="@color/textColorPrimary"
+            android:textColorHint="@color/textColorHint"
+            android:layout_marginBottom="10dp" />
+
+        <EditText
+            android:id="@+id/etPulse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Pulse Rate (bpm)"
+            android:inputType="number"
+            android:background="@drawable/edit_text_bg"
+            android:padding="12dp"
+            android:textColor="@color/textColorPrimary"
+            android:textColorHint="@color/textColorHint"
+            android:layout_marginBottom="20dp" />
+
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="💾 Save Log"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:layout_marginBottom="15dp"/>
+
+        <Button
+            android:id="@+id/btnView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📂 View Saved Logs"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/tvLogs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/textColorPrimary"
+            android:layout_marginTop="20dp"
+            android:text=""/>
+
+    </LinearLayout>
+</ScrollView>

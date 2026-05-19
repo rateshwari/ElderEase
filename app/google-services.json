@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "857344759105",
+    "project_id": "elderease-1a339",
+    "storage_bucket": "elderease-1a339.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:857344759105:android:b3102273bf3fab1e513dc0",
+        "android_client_info": {
+          "package_name": "com.example.elderease"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEYaVczRLUa58-s36Z11NwIIQMskgnvZY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ADD8E6"
+    android:padding="20dp"
+    tools:context=".MedicineActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Medicine Reminder"
+            android:textColor="@color/textColorPrimary"
+            android:textStyle="bold"
+            android:textSize="26sp"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Medicine Name -->
+        <EditText
+            android:id="@+id/etMedicineName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Medicine Name"
+            android:textColor="@color/textColorPrimary"
+            android:textColorHint="@color/textColorHint"
+            android:padding="10dp"
+            android:background="@android:drawable/editbox_background"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Frequency Spinner -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Frequency"
+            android:textColor="@color/textColorSecondary"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"/>
+        <Spinner
+            android:id="@+id/spinnerFrequency"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Date Picker -->
+        <Button
+            android:id="@+id/btnDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Date"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:layout_marginBottom="8dp"/>
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColorPrimary"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Time Picker -->
+        <Button
+            android:id="@+id/btnTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Time"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:layout_marginBottom="8dp"/>
+        <TextView
+            android:id="@+id/tvTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColorPrimary"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Medicine Type Radio Buttons -->
+        <TextView
+            android:text="Medicine Type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColorSecondary"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"/>
+        <RadioGroup
+            android:id="@+id/radioGroupType"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioTablet"
+                android:textColor="@color/textColorSecondary"
+                android:text="Tablet"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioSyrup"
+                android:textColor="@color/textColorSecondary"
+                android:text="Syrup"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioInjection"
+                android:textColor="@color/textColorSecondary"
+                android:text="Injection"/>
+        </RadioGroup>
+
+        <!-- CheckBox -->
+        <CheckBox
+            android:id="@+id/chkRepeat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Repeat daily"
+            android:textColor="@color/textColorSecondary"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Save Button -->
+        <Button
+            android:id="@+id/btnSaveReminder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="💾 Save Reminder"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- View Button -->
+        <Button
+            android:id="@+id/btnViewReminders"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📋 View All Reminders"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+</ScrollView>
