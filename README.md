@@ -62,7 +62,7 @@ The goal of ElderEase is to improve the safety, independence, and overall well-b
 ## Application Screenshots
 
 ### Splash Screen
-![Splash Screen](screenshots/splash_screen.png)
+![Splash Screen](screenshots/splash_screen.jpeg)
 
 ### Welcome Screen
 ![Welcome Screen](screenshots/welcome_screen.png)
@@ -74,19 +74,19 @@ The goal of ElderEase is to improve the safety, independence, and overall well-b
 ![Dashboard](screenshots/dashboard_screen.png)
 
 ### Medicine Reminder
-![Medicine Reminder](screenshots/medicine_reminder_screen.png)
+![Medicine Reminder](screenshots/medicine_reminder_screen.jpeg)
 
 ### SOS Emergency
-![SOS](screenshots/sos_screen.png)
+![SOS](screenshots/sos_screen.jpeg)
 
 ### Health Log
-![Health Log](screenshots/health_log_screen.png)
+![Health Log](screenshots/health_log_screen.jpeg)
 
 ### Hospital Locator
-![Hospital Locator](screenshots/hospital_locator_screen.png)
+![Hospital Locator](screenshots/hospital_locator_screen.jpeg)
 
 ### Profile Screen
-![Profile](screenshots/profile_screen.png)
+![Profile](screenshots/profile_screen.jpeg)
 
 ### Voice Assistant
 ![Voice Assistant](screenshots/voice_assistant_screen.png)
