@@ -1,22 +1,65 @@
-# ElderEase
+# 🩺 ElderEase
 
 ## Smart Healthcare & Safety Companion for Senior Citizens
 
-ElderEase is an Android application developed to support senior citizens in managing their daily healthcare needs and emergency situations.
+ElderEase is an Android healthcare application designed to support senior citizens in managing their daily healthcare activities, emergency situations, and medical records. The application provides medicine reminders, health monitoring, emergency assistance, hospital location services, and profile management through an easy-to-use interface.
 
-## Features
+The goal of ElderEase is to improve the safety, independence, and overall well-being of elderly individuals by combining multiple healthcare services into a single mobile application.
 
-* Medicine Reminder System
-* SOS Emergency Calling
-* Emergency SMS
-* Health Log Management
-* Nearby Hospital Map
-* User Profile Management
-* Firebase Authentication
-* SQLite Database Storage
-* Notifications and Alarms
+---
 
-## Technologies Used
+## 📱 Features
+
+### 💊 Medicine Reminder System
+
+* Add medicine reminders.
+* Select date and time.
+* Set medicine frequency.
+* Enable repeat reminders.
+* Receive medicine notifications.
+
+### 🚨 SOS Emergency Support
+
+* Save emergency contact numbers.
+* One-tap emergency calling.
+* Emergency SMS support.
+* Confirmation dialog before calling.
+
+### ❤️ Health Log Management
+
+* Record blood pressure.
+* Record sugar levels.
+* Record pulse rate.
+* View previously saved health logs.
+
+### 🗺️ Hospital Locator
+
+* Google Maps integration.
+* Display nearby hospitals.
+* View hospital locations on the map.
+
+### 👤 User Profile Management
+
+* Create and edit profile.
+* Store personal information.
+* Upload profile picture.
+* Persistent profile storage.
+
+### 🔐 User Authentication
+
+* User registration.
+* User login.
+* Firebase Authentication.
+
+### 🔔 Notifications & Reminders
+
+* AlarmManager integration.
+* NotificationManager support.
+* Medicine reminder alerts.
+
+---
+
+## 🛠 Technologies Used
 
 * Java
 * XML
@@ -27,26 +70,53 @@ ElderEase is an Android application developed to support senior citizens in mana
 * SharedPreferences
 * NotificationManager
 * AlarmManager
+* BroadcastReceiver
 
-## Modules
+---
 
-* Login & Registration
-* Medicine Reminder
-* Health Monitoring
-* SOS Emergency Support
-* User Profile
-* Hospital Locator
+## 🗄 Database Technologies
 
-## Future Enhancements
+* SQLite Database for medicine reminders.
+* SharedPreferences for profile and SOS data.
+* Firebase Authentication for user login and registration.
 
-* Voice Assistant
+---
+
+## 📂 Project Modules
+
+1. Login & Registration Module
+2. Medicine Reminder Module
+3. Health Monitoring Module
+4. SOS Emergency Module
+5. User Profile Module
+6. Hospital Locator Module
+
+---
+
+## 🎯 Problem Statement
+
+Senior citizens often face challenges such as forgetting medicines, difficulty contacting family members during emergencies, maintaining health records, and locating nearby hospitals. ElderEase addresses these problems by providing an integrated healthcare and safety platform specifically designed for elderly users.
+
+---
+
+## 🚀 Future Enhancements
+
+* Voice Assistant Integration
 * Live Location Sharing
-* Doctor Consultation
-* Cloud Database
+* Doctor Appointment Booking
+* Firebase Cloud Database
 * AI Health Recommendations
+* Wearable Device Integration
 
-## Developer
+---
 
-Rateshwari Shakthivel
+## 👩‍💻 Developer
 
+**Rateshwari Shakthivel**
 B.Tech Artificial Intelligence & Data Science
+
+---
+
+## 📌 Developed Using
+
+Android Studio • Java • XML • Firebase • SQLite • Google Maps API
