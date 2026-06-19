@@ -59,6 +59,41 @@ The goal of ElderEase is to improve the safety, independence, and overall well-b
 
 ---
 
+## Application Screenshots
+
+### Splash Screen
+![Splash Screen](screenshots/splash_screen.png)
+
+### Welcome Screen
+![Welcome Screen](screenshots/welcome_screen.png)
+
+### Registration Screen
+![Register Screen](screenshots/register_screen.png)
+
+### Dashboard
+![Dashboard](screenshots/dashboard_screen.png)
+
+### Medicine Reminder
+![Medicine Reminder](screenshots/medicine_reminder_screen.png)
+
+### SOS Emergency
+![SOS](screenshots/sos_screen.png)
+
+### Health Log
+![Health Log](screenshots/health_log_screen.png)
+
+### Hospital Locator
+![Hospital Locator](screenshots/hospital_locator_screen.png)
+
+### Profile Screen
+![Profile](screenshots/profile_screen.png)
+
+### Voice Assistant
+![Voice Assistant](screenshots/voice_assistant_screen.png)
+
+---
+
+
 ## 🛠 Technologies Used
 
 * Java
